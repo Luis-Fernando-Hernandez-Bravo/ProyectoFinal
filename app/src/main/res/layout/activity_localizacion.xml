@@ -2,10 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
-    tools:context=".MainActivity">
+    tools:context=".Localizacion">
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -16,37 +17,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+
         <Button
-              android:id="@+id/btn_normal"
-              android:layout_width="0dp"
-              android:layout_height="match_parent"
-              android:layout_weight="1"
-              android:text="@string/mapa_normal"
-              android:textSize="12sp" />
+            android:id="@+id/boton_Guardar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_guardar"
+            android:textSize="12sp" />
 
-          <Button
-              android:id="@+id/btn_hibrido"
-              android:layout_width="0dp"
-              android:layout_height="match_parent"
-              android:layout_weight="1"
-              android:text="@string/mapa_hibrido"
-              android:textSize="12sp" />
-
-          <Button
-              android:id="@+id/btn_satelite"
-              android:layout_width="0dp"
-              android:layout_height="match_parent"
-              android:layout_weight="1"
-              android:text="@string/mapa_satelite"
-              android:textSize="12sp" />
-
-          <Button
-              android:id="@+id/btn_terreno"
-              android:layout_width="0dp"
-              android:layout_height="match_parent"
-              android:layout_weight="1"
-              android:text="@string/mapa_terreno"
-              android:textSize="12sp" />
+        <Button
+            android:id="@+id/boton_Borrar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_borrar"
+            android:textSize="12sp" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -91,6 +77,5 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.10" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

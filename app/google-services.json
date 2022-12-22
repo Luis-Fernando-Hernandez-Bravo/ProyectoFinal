@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137357165692",
+    "project_id": "proyectofinal-b5570",
+    "storage_bucket": "proyectofinal-b5570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137357165692:android:fd38fc282c3d303380b5f9",
+        "android_client_info": {
+          "package_name": "mx.ipn.cic.geo.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137357165692-n64bn8i2agaqip7kltsqdjh3bigdqnnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbD7uVX9nb_rGLIdBPtsRZS_9bwOsniek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137357165692-n64bn8i2agaqip7kltsqdjh3bigdqnnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
