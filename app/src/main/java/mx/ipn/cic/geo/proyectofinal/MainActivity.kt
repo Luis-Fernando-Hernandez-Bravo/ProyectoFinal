@@ -124,6 +124,12 @@ class MainActivity : AppCompatActivity(), GoogleMap.OnMyLocationButtonClickListe
         val longitud = location.longitude
 
         Toast.makeText(this, "Posición Actual:\n($latitud, $longitud)", Toast.LENGTH_LONG).show()
+
+        val intent= Intent(this,Localizacion::class.java)
+        intent.putExtra("latitud",location.latitude)
+        intent.putExtra("longitud",location.longitude)
+
+        startActivity(intent)
     }
 
     override fun onMapClick(p0: LatLng) {
