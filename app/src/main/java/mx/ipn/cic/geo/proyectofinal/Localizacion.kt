@@ -1,5 +1,10 @@
 package mx.ipn.cic.geo.proyectofinal
-
+/*
+* PROYECTO FINAL
+*
+* Autor: Luis Fernando Hernández Bravo
+*
+* */
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -48,8 +53,6 @@ class Localizacion : AppCompatActivity(), OnMapReadyCallback {
         //****************************************************************
         binding.botonGuardar.setOnClickListener {
 
-            val lati=this.latitud
-            val longi=this.longitud
 
 
             val Puntos=Coordenadas(this.latitud,this.longitud)
